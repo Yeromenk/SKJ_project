@@ -1,0 +1,76 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{%block title  %}Home{% endblock title%}
+
+{% block banned_slider %}
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" style="background-color: gray" >
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">ElectroMart</h1>
+        <p class="lead font-weight-normal">Welcome to our eShop!</p>
+    </div>
+    <div class="product-device box-shadow d-none d-md-block"></div>
+    <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+</div>
+
+{% endblock banned_slider %}
+
+{% block info %}
+<br>
+<div class="container">
+    <div class="row bg-light text-center p-5 border-bottom shadow">
+        <h1>Products</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row ">
+        <div class="col-md-4 mt-3 ">
+            <div class="card p-5 border-bottom shadow">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Delivery</h5>
+                    <p class="card-text">We offer fast and reliable delivery to all locations within the country.
+                        Delivery times vary depending on your location and the type of product you have ordered.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="card p-5 border-bottom shadow">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Support</h5>
+                    <p class="card-text">We provide 24/7 support to all our customers. Our support team is available to
+                        answer any questions you may have regarding our products and services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+            <div class="card p-5 border-bottom shadow">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Reviews</h5>
+                    <p class="card-text">We have many satisfied customers who have left positive reviews about our
+                        products and services. Read what they have to say and join the ranks of happy customers!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock info %}
+
+
+{% block main_content %}
+<br>
+<br>
+<br>
+<br>
+{% endblock main_content %}
+
